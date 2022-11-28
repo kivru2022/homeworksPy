@@ -52,3 +52,9 @@ import random
 # 5. Реализуйте алгоритм перемешивания списка.
 lst = [random.randint(0, 10) for i in range(random.randint(4, 10))]
 print (lst)
+numb = random.randint(0, 10)
+
+for i in range (len(lst)):
+    lst[k], lst[i] = lst[i], lst[k]
+    numb -= 1
+    print(f'Новый {lst}')
