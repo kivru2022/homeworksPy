@@ -25,15 +25,15 @@ import random
 # 3. Задайте список из n чисел последовательности (1 + 1 / n)**n и выведите на экран их сумму.
 # a = int(input('Ваше число '))
 # lst = []
-# for i in range (a + 1):
-#     lst.append((1 + 1 / i)**i)
+
+# for i in range (1, a + 1):
+#     lst.append(pow((1 + 1 / i), i))
 #     print(lst)
  
- 
-# sum = 0
+# summa = 0
 # for element in lst:
-#     sum = sum + element
-#     print(sum)
+#     summa += element
+#     print(summa)
     
 # 4. Задайте список из N элементов, заполненных числами из промежутка [-N, N]. 
 # Найдите произведение элементов на указанных позициях. Позиции вводятся с клавиатуры
@@ -50,12 +50,5 @@ import random
 # print(proizv)
 
 # 5. Реализуйте алгоритм перемешивания списка.
-# lst = [random.randint(0, 10) for i in range(random.randint(4, 5))]
-# print (lst)
-# for i in lst:
-#     j = random.randint()
-#     b = lst[j]
-#     lst[j] = lst[i]
-#     lst[i] = b
-#     print(lst)
-    # это было бы прекрасным решением на С#, но в питоне оно не работает(
+lst = [random.randint(0, 10) for i in range(random.randint(4, 10))]
+print (lst)
